@@ -1,0 +1,86 @@
+.register-box{
+    border-radius: 20px;
+    margin: auto auto;
+    background:#00000000;
+    width: 60%;
+    height: 50%;
+}
+
+.logo-box{
+    background: transparent;
+    width: 50px;
+    margin: 0px auto;
+}
+.register-logo{
+    background: transparent;
+    width: 50px;
+}
+
+
+
+.telephone-box{
+    margin: auto auto;
+    margin-top: 50px;
+
+    width: 200px;
+    background:transparent;
+}
+.telephone{
+    border-radius: 5px;
+    width: 100%;
+    background: transparent;
+}
+
+
+
+.username-box{
+    margin: auto auto;
+    margin-top: 15px;
+    width: 200px;
+    background: transparent;
+}
+.username{
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.password-box{
+    margin: auto auto;
+    margin-top: 15px;
+    width: 200px;
+    background: transparent;
+}
+.password{
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.repassword-box{
+    margin: auto auto;
+    margin-top: 15px;
+    width: 200px;
+    background: transparent;
+}
+.repassword{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-box{
+    width: 200px;
+    background: transparent;
+    margin: 20px auto;
+}
+.button{
+    border-radius: 5px;
+    background: transparent;
+    width: 100%;
+
+}
+.button:hover{
+    background: #ccc;
+}

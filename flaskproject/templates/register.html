@@ -1,0 +1,41 @@
+
+
+{% extends 'base.html' %}
+
+{% block title %}注册{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/register.css') }}">
+{% endblock %}
+
+{% block main%}
+   <div class="register-box">
+        <div class="logo-box">
+            <img class="register-logo"  src="{{ url_for('static',filename="images/logo.png") }}">
+        </div>
+
+        <form action="" method="POST">
+
+            <div class="telephone-box">
+                <input type="text" class="telephone"  name="telephone" placeholder="Telephone" maxlength="11">
+            </div>
+
+            <div class="username-box">
+                <input type="text" class="username" name="username" placeholder="Username">
+            </div>
+
+            <div class="password-box">
+                <input type="password" class="password" name="password" placeholder="Password">
+            </div>
+
+            <div class="repassword-box">
+                <input type="password" class="repassword" name="repassword" placeholder="Certain Password">
+            </div>
+
+            <div class="submit-box">
+                <button class="button">注册</button>
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

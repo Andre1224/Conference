@@ -1,0 +1,50 @@
+.question-title{
+    text-align: center;
+}
+.question-info{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.comment-box{
+    width: 100%;
+}
+.comment{
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+    margin: 10px auto;
+}
+.submit-box{
+    margin-left:84%;
+}
+.button{
+    border-radius: 5px;
+    background: transparent;
+    width: 100px;
+
+}
+.button:hover{
+    background: #cccccc;
+}
+.user-comment-box{
+    border-bottom: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+
+.user-head{
+    width: 50px;
+    background: transparent;
+    float: left;
+    margin-right: 20px;
+}
+.user-head-img{
+    width: 50px;
+}
+.comment-group{
+    overflow: hidden;
+}
+.comment-content{
+    margin: 10px auto;
+}

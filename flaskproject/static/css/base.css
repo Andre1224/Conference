@@ -1,0 +1,23 @@
+.index-logo{
+    height: 20px;
+}
+body{
+    background: #f3f3f3;
+}
+
+.head-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main{
+    margin: 0 auto;
+    background: white;
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 20px 20px;
+}

@@ -1,0 +1,69 @@
+.login-box{
+    border-radius: 20px;
+    margin: auto auto;
+    background:#00000000;
+    width: 60%;
+    height: 50%;
+}
+
+.logo-box{
+    background: transparent;
+    width: 50px;
+    margin: 0px auto;
+}
+.login-logo{
+
+    width: 50px;
+}
+.username-box{
+    width: 200px;
+    margin: 15px auto;
+    margin-top: 30px;
+    padding: 10px auto;
+    background: transparent;
+}
+.username{
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border-color: gray;
+    background: transparent;
+}
+
+.password-box{
+    width: 200px;
+    margin: 15px auto;
+    padding: 10px auto;
+    background: transparent;
+}
+.password{
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border-color: gray;
+    background: transparent;
+}
+
+.check-box{
+    width: 80px;
+    background:transparent;
+    margin: 10px auto;
+}
+.ck{
+
+}
+
+.submit-box{
+    width: 200px;
+    background: transparent;
+    margin: 0px auto;
+}
+.button{
+    border-radius: 5px;
+    background: transparent;
+    width: 100%;
+
+}
+.button:hover{
+    background: #ccc;
+}

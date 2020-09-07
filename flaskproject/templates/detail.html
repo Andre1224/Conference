@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+
+{% block title %}问答详情{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/detail.css') }}">
+{% endblock %}
+
+{% block main %}
+    <h3 class="question-title">{{ question.title }}</h3>
+    <p class="question-info">
+        <span>作者：{{ question.author.username }}</span>
+        <span>时间：{{ question.create_time }}</span>
+    </p>
+
+    <hr>
+
+    <p class="question-detail">
+       {{ question.content }}
+    </p>
+
+   <hr>
+
+    <h4>评论：【{{ num }}】</h4>
+    <form action="{{ url_for('comment') }}" method="post">
+            <div class="comment-box">
+                <textarea class="comment"  name="comment" placeholder=" 请填写评论" rows="3" required></textarea>
+                <input type="hidden" name="question_id" value="{{ question.id }}" >
+            </div>
+            <div class="submit-box">
+                <button class="button">发表评论</button>
+
+            </div>
+    </form>
+
+    <hr>
+
+    {%  for comment in comments %}
+                <div class="user-comment-box">
+                    <div class="user-head">
+                        <img class="user-head-img" src="{{ url_for('static',filename='images/logo.png') }}">
+                    </div>
+
+                    <div class="comment-group">
+
+                        <div class="comment-info">
+                            <span>{{ comment.author.username }}</span>
+                            <span>{{ comment.create_time }}</span>
+                        </div>
+
+                        <div class="comment-content">
+                            <p>{{ comment.content }}</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+    {% endfor %}
+
+{% endblock %}
