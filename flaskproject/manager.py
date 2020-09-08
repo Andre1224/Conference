@@ -5,8 +5,9 @@ from new import app
 from extension import db
 from models import User,Question,Comment
 
+# first init the project should run this command to init the databases
 # python manager.py db init
-
+# first run the project and when you databases and tables had modified, should run those command
 # python manager.py db migrate
 # python manager.py db upgrade
 
